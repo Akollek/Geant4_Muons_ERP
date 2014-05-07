@@ -13,4 +13,4 @@ Muon energy is currently set to 4 GeV (average at sea level). See PrimaryActionG
 
 # Use
 
-I have also pushed a shell script I was using to run this simulation. It requires CMake installed to command line. Run it with `source G4_Run_Script.sh`
+I have also pushed a shell script I was using to run this simulation. It requires CMake installed to command line. Run it with `source G4_Run_Script.sh`. Note that when it asks for application name, this must be the name of the file which contains `main()`. In this case it would be TestEm5.
